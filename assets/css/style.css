@@ -136,3 +136,39 @@ button:hover{
     color:#430A5D;
 }
 /* about css end */
+
+.calculator{
+    background-color:#2874A6;
+    padding: 20px;
+    border-radius: 8px;
+    width:100vh;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(71, 217, 240, 0.8);
+    background-size: cover;
+    margin: 150px 350px;
+}
+label{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+input{
+    width:100%;
+    padding:8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+button{
+    background-color: #0E6251;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: #9B59B6 ;
+}
+#result{
+    margin-top: 20px;
+    font-weight: bold;
+}
