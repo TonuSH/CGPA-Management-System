@@ -1,0 +1,138 @@
+/* logo font */
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/* common css start */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+body,p{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button,
+input,
+textarea,
+select,
+span{
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common css end */
+
+/* navbar css start */
+.navbar-brand{
+    font-family: "Platypi", serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#015f5f;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #1679AB;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    transition: 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #9A4444;
+    background-color: #F4DFB6;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #213e57;
+    color: #fff;
+    margin: 0 10px 0 10px;
+    border:none;
+}
+button:hover{
+    background-color: #4793AF;
+}
+/* navbar css end */
+
+/* hero css start */
+#hero .inner_container{
+    width: 50%;
+}
+#hero .container{
+    background-image: url(./../image/hero_bg.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    height:600px;
+    display: flex;
+    align-items: center;
+}
+
+#hero .inner_container h1 {
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 400px;
+    color:#C41E3A;
+    padding-top: 14px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+  }
+#hero .login_btn{
+    border-radius: 4px;
+    background-color: #003C43;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+#hero .join_btn:hover{
+    background-color: #F4DFB6;
+  }
+/* hero css end */
+
+/* about css start */
+#about{
+    background-image: url(./../image/discuss.avif);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+#about .inner-about{
+    width: 50%;
+}
+.inner-about h2{
+    color:#401F71;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.inner-about span{
+    color: #430A5D;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+#content .inner-about p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 32px;
+    color:#430A5D;
+}
+/* about css end */
